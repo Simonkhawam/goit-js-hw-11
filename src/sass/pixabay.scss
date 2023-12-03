@@ -5,9 +5,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #ffefba;
-  background: -webkit-linear-gradient(to right, #ffffff, #ffefba);
-  background: linear-gradient(to right, #ffffff, #ffefba);
+  background: #f0f0ee;
 }
 
 .search-form {
@@ -16,10 +14,10 @@ body {
 }
 
 .search-form input {
-  padding: 6px;
-  font-size: 28px;
-  font-weight: 600;
-  border-radius: 4px;
+  padding: 8px;
+  font-size: 24px;
+  font-weight: 200;
+  border-radius: 8px;
 }
 
 .gallery {
@@ -40,7 +38,7 @@ body {
   height: 200px;
   -webkit-box-shadow: 10px 7px 14px 8px rgba(0, 0, 0, 0.66);
   -moz-box-shadow: 10px 7px 14px 8px rgba(0, 0, 0, 0.66);
-  box-shadow: 10px 7px 14px 8px rgba(0, 0, 0, 0.66);
+  box-shadow: 10px 7px 14px 8px rgba(64, 56, 56, 0.66);
 }
 
 .photo-card .info {
@@ -49,17 +47,16 @@ body {
 
 .search-btn {
   appearance: none;
-  background-color: #ffffff;
-  border-radius: 40em;
+  background-color: #4051ecca;
+  border-radius: 2em;
   border-style: none;
-  box-shadow: #adcfff 0 -12px 6px inset;
   box-sizing: border-box;
   color: #000000;
   cursor: pointer;
   display: inline-block;
   font-family: -apple-system, sans-serif;
   font-size: 1.2rem;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: -0.24px;
   margin-left: 10px;
   outline: none;
@@ -67,16 +64,9 @@ body {
   quotes: auto;
   text-align: center;
   text-decoration: none;
-  transition: all 0.15s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-}
-
-.search-btn:hover {
-  background-color: #ffc229;
-  box-shadow: #ff6314 0 -6px 8px inset;
-  transform: scale(1.125);
 }
 
 .search-btn:active {
